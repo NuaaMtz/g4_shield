@@ -5,6 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mtz/Projects/g4_shield/main.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/main.cc.o"
+  "/home/mtz/Projects/g4_shield/src/ActionInitialization.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/ActionInitialization.cc.o"
+  "/home/mtz/Projects/g4_shield/src/DetectorConstruction.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/DetectorConstruction.cc.o"
+  "/home/mtz/Projects/g4_shield/src/EventAction.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/EventAction.cc.o"
+  "/home/mtz/Projects/g4_shield/src/PrimaryGeneratorAction.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
+  "/home/mtz/Projects/g4_shield/src/RunAction.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/RunAction.cc.o"
+  "/home/mtz/Projects/g4_shield/src/SteppingAction.cc" "/home/mtz/Projects/g4_shield/build/CMakeFiles/main.dir/src/SteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,7 +37,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/mtz/sofeware/root/include"
   "../include"
-  "/home/mtz/sofeware/geant4/install/include/Geant4"
+  "/home/mtz/sofeware/geant4-mt/install/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"

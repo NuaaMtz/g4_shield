@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cc.o"
+  "CMakeFiles/main.dir/src/ActionInitialization.cc.o"
+  "CMakeFiles/main.dir/src/DetectorConstruction.cc.o"
+  "CMakeFiles/main.dir/src/EventAction.cc.o"
+  "CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
+  "CMakeFiles/main.dir/src/RunAction.cc.o"
+  "CMakeFiles/main.dir/src/SteppingAction.cc.o"
   "main"
   "main.pdb"
 )

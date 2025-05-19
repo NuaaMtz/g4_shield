@@ -60,38 +60,128 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: ../main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cc.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/mtz/Projects/g4_shield/main.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/mtz/Projects/g4_shield/main.cc
 
 CMakeFiles/main.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/main.cc > CMakeFiles/main.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/main.cc > CMakeFiles/main.dir/main.cc.i
 
 CMakeFiles/main.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/main.cc -o CMakeFiles/main.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/main.cc -o CMakeFiles/main.dir/main.cc.s
+
+CMakeFiles/main.dir/src/ActionInitialization.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/ActionInitialization.cc.o -c /home/mtz/Projects/g4_shield/src/ActionInitialization.cc
+
+CMakeFiles/main.dir/src/ActionInitialization.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ActionInitialization.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/ActionInitialization.cc > CMakeFiles/main.dir/src/ActionInitialization.cc.i
+
+CMakeFiles/main.dir/src/ActionInitialization.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ActionInitialization.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/ActionInitialization.cc -o CMakeFiles/main.dir/src/ActionInitialization.cc.s
+
+CMakeFiles/main.dir/src/DetectorConstruction.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/DetectorConstruction.cc.o -c /home/mtz/Projects/g4_shield/src/DetectorConstruction.cc
+
+CMakeFiles/main.dir/src/DetectorConstruction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/DetectorConstruction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/DetectorConstruction.cc > CMakeFiles/main.dir/src/DetectorConstruction.cc.i
+
+CMakeFiles/main.dir/src/DetectorConstruction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/DetectorConstruction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/DetectorConstruction.cc -o CMakeFiles/main.dir/src/DetectorConstruction.cc.s
+
+CMakeFiles/main.dir/src/EventAction.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/EventAction.cc.o: ../src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/EventAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/EventAction.cc.o -c /home/mtz/Projects/g4_shield/src/EventAction.cc
+
+CMakeFiles/main.dir/src/EventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/EventAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/EventAction.cc > CMakeFiles/main.dir/src/EventAction.cc.i
+
+CMakeFiles/main.dir/src/EventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/EventAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/EventAction.cc -o CMakeFiles/main.dir/src/EventAction.cc.s
+
+CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -c /home/mtz/Projects/g4_shield/src/PrimaryGeneratorAction.cc
+
+CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/PrimaryGeneratorAction.cc > CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i
+
+CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/PrimaryGeneratorAction.cc -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s
+
+CMakeFiles/main.dir/src/RunAction.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/RunAction.cc.o: ../src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/RunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/RunAction.cc.o -c /home/mtz/Projects/g4_shield/src/RunAction.cc
+
+CMakeFiles/main.dir/src/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/RunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/RunAction.cc > CMakeFiles/main.dir/src/RunAction.cc.i
+
+CMakeFiles/main.dir/src/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/RunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/RunAction.cc -o CMakeFiles/main.dir/src/RunAction.cc.s
+
+CMakeFiles/main.dir/src/SteppingAction.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/SteppingAction.cc.o -c /home/mtz/Projects/g4_shield/src/SteppingAction.cc
+
+CMakeFiles/main.dir/src/SteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/SteppingAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtz/Projects/g4_shield/src/SteppingAction.cc > CMakeFiles/main.dir/src/SteppingAction.cc.i
+
+CMakeFiles/main.dir/src/SteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/SteppingAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtz/Projects/g4_shield/src/SteppingAction.cc -o CMakeFiles/main.dir/src/SteppingAction.cc.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cc.o"
+"CMakeFiles/main.dir/main.cc.o" \
+"CMakeFiles/main.dir/src/ActionInitialization.cc.o" \
+"CMakeFiles/main.dir/src/DetectorConstruction.cc.o" \
+"CMakeFiles/main.dir/src/EventAction.cc.o" \
+"CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o" \
+"CMakeFiles/main.dir/src/RunAction.cc.o" \
+"CMakeFiles/main.dir/src/SteppingAction.cc.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cc.o
+main: CMakeFiles/main.dir/src/ActionInitialization.cc.o
+main: CMakeFiles/main.dir/src/DetectorConstruction.cc.o
+main: CMakeFiles/main.dir/src/EventAction.cc.o
+main: CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o
+main: CMakeFiles/main.dir/src/RunAction.cc.o
+main: CMakeFiles/main.dir/src/SteppingAction.cc.o
 main: CMakeFiles/main.dir/build.make
-main: /home/mtz/sofeware/geant4/install/lib/libG4Tree.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4GMocren.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4visHepRep.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4RayTracer.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4VRML.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4OpenGL.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4gl2ps.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4interfaces.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4persistency.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4error_propagation.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4readout.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4physicslists.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4parmodels.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4Tree.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4GMocren.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4visHepRep.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4RayTracer.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4VRML.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4OpenGL.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4gl2ps.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4interfaces.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4persistency.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4error_propagation.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4readout.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4physicslists.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4parmodels.so
 main: /home/mtz/sofeware/root/lib/libCore.so
 main: /home/mtz/sofeware/root/lib/libImt.so
 main: /home/mtz/sofeware/root/lib/libRIO.so
@@ -111,9 +201,9 @@ main: /home/mtz/sofeware/root/lib/libMathCore.so
 main: /home/mtz/sofeware/root/lib/libThread.so
 main: /home/mtz/sofeware/root/lib/libMultiProc.so
 main: /home/mtz/sofeware/root/lib/libEve.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4FR.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4vis_management.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4modeling.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4FR.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4vis_management.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4modeling.so
 main: /usr/lib/x86_64-linux-gnu/libXmu.so
 main: /usr/lib/x86_64-linux-gnu/libXext.so
 main: /usr/lib/x86_64-linux-gnu/libXt.so
@@ -127,24 +217,24 @@ main: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
 main: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 main: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 main: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-main: /home/mtz/sofeware/geant4/install/lib/libG4run.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4event.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4tracking.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4processes.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4analysis.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4zlib.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4run.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4event.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4tracking.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4processes.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4analysis.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4zlib.so
 main: /usr/lib/x86_64-linux-gnu/libexpat.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4digits_hits.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4track.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4particles.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4geometry.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4materials.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4graphics_reps.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4intercoms.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4global.so
-main: /home/mtz/sofeware/geant4/install/lib/libG4clhep.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4digits_hits.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4track.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4particles.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4geometry.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4materials.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4graphics_reps.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4intercoms.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4global.so
+main: /home/mtz/sofeware/geant4-mt/install/lib/libG4clhep.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mtz/Projects/g4_shield/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
